@@ -26,11 +26,7 @@ namespace WinUIApp
         public MainWindow()
         {
             this.InitializeComponent();
-        }
-
-        private void myButton_Click(object sender, RoutedEventArgs e)
-        {
-            myButton.Content = "Clicked";
+            this.Title = "Hello sailor!";
         }
     }
 }
